@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.app2.SecondActivity">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <RadioButton
+            android:id="@+id/red"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RED"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="59dp"
+            android:onClick="colorPicked"/>
+
+        <RadioButton
+            android:id="@+id/green"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GREEN"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="59dp"
+            android:onClick="colorPicked" />
+
+        <RadioButton
+            android:id="@+id/blue"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BLUE"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="59dp"
+            android:onClick="colorPicked" />
+
+    </RadioGroup>
+
+
+</android.support.constraint.ConstraintLayout>
